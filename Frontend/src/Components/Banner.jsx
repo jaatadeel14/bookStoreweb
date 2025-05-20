@@ -11,7 +11,7 @@ const Banner = () => {
         Hello, welcomes here to learn something <span className='text-pink-500'>new Everyday!!!</span>
        </h1>
        <p className='text-xl'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptatibus vitae, dolore vero quod odit est non, placeat temporibus cumque voluptas sed. 
+        Discover a world of stories and knowledge at your fingertips. From timeless classics to contemporary gems, we bring the joy of reading to life for everyone. 
        </p>
 
        <label className="input validator  dark:bg-slate-900 dark:text-white border-lime-50">
@@ -31,7 +31,7 @@ const Banner = () => {
 </label>
 <div className="validator-hint hidden ">Enter valid email address</div>
       </div>
-      <button className="btn btn-secondary">Secondary</button>
+      <button className="btn btn-secondary ">Secondary</button>
 
     </div>
     <div className='order-1 w-full md:w-1/2'>
@@ -48,6 +48,4 @@ const Banner = () => {
 }
 
 export default Banner
-
-
 

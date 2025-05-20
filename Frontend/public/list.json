@@ -2,7 +2,7 @@
     {
         "id":1,
         "name":"Storey Book",
-        "title":"Lorem ispsum dolor site amet consecture adiction elit.",
+        "title":"Magical tales filled with adventure, wonder, and unforgettable characters.",
         "price":0,
         "category":"Free",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
@@ -11,7 +11,7 @@
     {
         "id":2,
         "name":"Comedy Book",
-        "title":"Lorem ispsum dolor site amet consecture adiction elit.",
+        "title":"Funny stories guaranteed to make you smile and forget worries.",
         "price":20,
         "category":"Entertainment",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"

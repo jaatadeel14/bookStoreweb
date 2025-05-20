@@ -52,7 +52,7 @@ const Freebook = () => {
         <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
            <div>
              <h1 className='font-semibold text-xl pb-2'>Free Offered Courses</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptatibus vitae, dolore vero quod odit est non, placeat temporibus cumque voluptas sed.</p>
+            <p>Unlock your potential with our free courses! Explore a variety of topics designed to enhance your knowledge, skills, and creativity, all available at no cost to inspire your journey.</p>
            </div>
         
         <div>
