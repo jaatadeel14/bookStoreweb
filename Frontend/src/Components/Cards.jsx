@@ -6,7 +6,7 @@ function Cards({ item }) {
     <>
       <div className='mt-4 my-3 p-3 cursor-pointer'>
         <div className="card w-92 bg-base-200 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
-          <figure>
+          <figure className="h-48 overflow-hidden">
             <img
               src={item.image}
               alt="Shoes" />
@@ -29,6 +29,13 @@ function Cards({ item }) {
 }
 
 export default Cards
+
+
+
+
+
+
+
 
 
 
