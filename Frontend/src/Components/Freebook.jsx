@@ -16,9 +16,9 @@ const Freebook = () => {
     const getBook = async () => {
       try {
         const res = await axios.get("http://localhost:4001/book");
-        // console.log(res.data)
-        const data =res.data.filter((data) => data.category === "Free");
-        console.log(data)
+        const data = res.data.filter((data) => data.category === "Free");
+        // Add console log to see the data structure
+        console.log("Book data structure:", data[0]);
         setBook(data)
 
       } catch (error) {

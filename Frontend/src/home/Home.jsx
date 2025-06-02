@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar'
 import Banner from '../Components/Banner'
 import Freebook from '../Components/Freebook'
 import Footer from '../Components/Footer'
+import Chatbot from '../Components/Chatbot'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
     <Banner/>
     <Freebook />
     <Footer/>
+    <Chatbot />
     </>
   )
 }

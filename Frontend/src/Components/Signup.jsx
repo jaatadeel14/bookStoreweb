@@ -35,8 +35,8 @@ function Signup() {
 
     return (
         <>
-            <div className='flex h-screen items-center justify-center '>
-                <div className="border-[2px] shadow-md p-5 rounded-md ">
+            <div className='flex h-screen items-center justify-center  dark:bg-slate-900 dark:text-white'>
+                <div className="border-[2px] shadow-md p-5 rounded-md  dark:bg-slate-900 dark:text-white">
 
                     {/* Signup Form */}
                     <form onSubmit={handleSubmit(onSubmit)}>

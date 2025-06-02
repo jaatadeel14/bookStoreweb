@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Login from './Login';
 import Logout from './Logout';
 import { useAuth } from '../context/Authprovider';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [authUser, setAuthUser] = useAuth()
@@ -59,12 +60,12 @@ const Navbar = () => {
                                 {navItems}
                             </ul>
                         </div>
-                        <a className="text-2xl font-bold cursor-pointer">bookStore</a>
+                        <Link to="/" className="text-2xl font-bold cursor-pointer">bookStore</Link>
                     </div>
 
-                    <div className="navbar-end space-x-3">
+                    <div className="navbar-end space-x-3 ">
 
-                        <div className="navbar-center hidden lg:flex">
+                        <div className="navbar-center hidden lg:flex ">
                             <ul className="menu menu-horizontal px-1">{navItems}</ul>
                         </div>
                         <div className='hidden md:block'>
